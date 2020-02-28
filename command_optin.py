@@ -8,8 +8,12 @@ if __name__ == '__main__':
     print(dir(Menu))  # methods
 
     # object of the class
+    # calling __init__ while creating
     notebook = Notebook()
     # method in use
     notebook.new_note('Hello Oles')
-    # class 
+    # class variable, like self,var
     print(isinstance(notebook.notes, list))
+    # representing an object
+    print(str(notebook))
+
