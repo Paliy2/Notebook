@@ -12,7 +12,7 @@ if __name__ == '__main__':
     notebook = Notebook()
     # method in use
     notebook.new_note('Hello Oles')
-    # class variable, like self,var
+    # class function variable, like self,var
     print(isinstance(notebook.notes, list))
     # representing an object
     print(str(notebook))
