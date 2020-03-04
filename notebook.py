@@ -83,5 +83,4 @@ class Notebook:
 if __name__ == '__main__':
     n = Notebook()
     n.new_note("hello world")
-    n.new_note("hello bitch")
     print(n.search("world"))
